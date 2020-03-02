@@ -4,10 +4,22 @@ body
   background-color: #D7FFE9;
 }
 
+p
+{
+  text-align: justify;
+  hyphens: auto;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 25px;
+  padding-bottom: 150px;
+}
+
 .header
 {
   background-color: #0CBE70;
   overflow: hidden;
+  position: sticky;
+  top: 8px;
 }
 
 .header a
@@ -18,7 +30,6 @@ body
   float: left;
   font-size: 18px;
   color: #565656;
-  transition-duration: 0.2s;
 }
 
 .header a:hover
@@ -31,4 +42,23 @@ body
 {
   color: black;
   background-color: #0BA662;
+}
+
+.block
+{
+
+  background-color: #D7FFE9;
+  top: 0px;
+  height: 100px;
+  width: 100%;
+  position: sticky;
+}
+
+.block2
+{
+  position: fixed;
+  width: 100%;
+  height: 35px;
+  background-image: linear-gradient(to top, rgba(215, 255, 233, 0), rgba(215, 255, 233, 1));
+  top: 100px;
 }
