@@ -1,0 +1,34 @@
+body
+{
+  font-family: sans-serif;
+  background-color: #D7FFE9;
+}
+
+.header
+{
+  background-color: #0CBE70;
+  overflow: hidden;
+}
+
+.header a
+{
+  text-align: center;
+  text-decoration: none;
+  padding: 14px 16px;
+  float: left;
+  font-size: 18px;
+  color: #565656;
+  transition-duration: 0.2s;
+}
+
+.header a:hover
+{
+  color: black;
+  background-color: #0BA662;
+}
+
+.header_selected
+{
+  color: black;
+  background-color: #0BA662;
+}
