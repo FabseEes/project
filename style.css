@@ -8,10 +8,21 @@ p
 {
   text-align: justify;
   hyphens: auto;
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-left: 15%;
+  padding-right: 15%;
   padding-top: 25px;
-  padding-bottom: 150px;
+  padding-bottom: 25px;
+}
+
+.picture
+{
+  padding-left: 15%;
+  padding-right: 15%;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  width: 70%;
+  height: auto;
+  align: center;
 }
 
 .header
