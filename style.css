@@ -14,7 +14,7 @@ p
   padding-bottom: 25px;
 }
 
-.picture
+.image
 {
   padding-left: 15%;
   padding-right: 15%;
@@ -23,6 +23,28 @@ p
   width: 70%;
   height: auto;
   align: center;
+}
+
+table
+{
+  border: 2px solid #3D4A43;
+  border-collapse: collapse;
+  padding-left: 15px;
+  margin: auto;
+}
+
+td
+{
+  border: 2px solid #3D4A43;
+  border-collapse: collapse;
+  padding-left: 15px;
+}
+
+th
+{
+  border: 2px solid #3D4A43;
+  border-collapse: collapse;
+  padding-left: 15px;
 }
 
 .header
