@@ -1,0 +1,42 @@
+body, html{
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 25vw 25vw 25vw 25vw;
+  grid-template-rows: 10vh 30vh 30vh 30vh;
+  grid-template-areas:
+    "header header header header"
+    "content content content content"
+    "content content content content"
+    "content content content content"
+  ;
+}
+
+.grid div{
+  padding: 0;
+  margin: 0;
+}
+
+.header{
+  background: rgba(50, 10, 255, 1);
+  grid-area: header;
+}
+
+.tabs td{
+  height: 10vh;
+  padding-left: 20vw;
+}
+
+.content{
+  background: rgba(255, 0, 0, 1);
+  grid-area: content;
+}
+
+.test{
+
+}
