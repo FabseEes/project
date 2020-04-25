@@ -9,6 +9,10 @@ html, body{
   color: #979797;
 }
 
+p::selection{
+  color: #E7E9FF;
+}
+
 header{
   background: #060F65;
   font-size: 20px;
