@@ -10,3 +10,12 @@
 h2{
   color: #E7E9FF;
 }
+
+p a{
+  text-decoration: none;
+  color: #E7E9FF;
+}
+
+p a::selection{
+  color: #D0D3FF;
+}

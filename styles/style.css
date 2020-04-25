@@ -10,11 +10,11 @@ html, body{
 }
 
 p::selection{
-  color: #E7E9FF;
+  color: #D0D3FF;
 }
 
 h2::selection{
-  color: #E7E9FF;
+  color: #D0D3FF;
 }
 
 header{
@@ -68,7 +68,7 @@ header::after{
 }
 
 .content{
-  padding: 3vh 10vw 8vh 10vw;
+  margin: 3vh 18vw 8vh 18vw;
   text-align: justify;
 }
 
