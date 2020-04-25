@@ -5,25 +5,30 @@ html, body{
   padding: 0;
   margin: 0;
   background: #222;
+  scroll-behavior: smooth;
 }
 
 header{
   background: #060F65;
+  font-size: 20px;
   position: sticky;
   top: 0;
-  font-size: 20px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+
 }
 
 header ul{
-  float: right;
+  text-align: center;
+  marign: 0;
+  padding: 0;
   list-style: none;
 }
 
 header li{
-  float: left;
-  margin-left: 10vw;
-  text-decoration: none;
-  padding-top: 60px;
+  padding: 0 4vw 0 4vw;
+  display: inline-block;
 }
 
 header a{
@@ -48,8 +53,42 @@ header::after{
 }
 
 .logo{
-  height: 150px;
+  height: 200px;
   width: auto;
   padding: 15px;
-  float: left;
+}
+
+.content{
+  padding: 3vh 7vw 8vh 7vw;
+  text-align: justify;
+}
+
+footer{
+  background: #060F65;
+}
+
+.footer{
+  height: 150px;
+  text-align: center;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.back2top{
+  text-decoration: none;
+  color: #E7E9FF;
+}
+
+#anfang{
+  z-index: 100;
+}
+
+.topdiv{
+  background: #060F65;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  justify-content: center;
+  align-items: center;
 }
