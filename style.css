@@ -1,42 +1,55 @@
-body, html{
-  width: 100vw;
-  height: 100vh;
-  margin: 0;
-  padding: 0;
-}
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap');
 
-.grid{
-  display: grid;
-  grid-template-columns: 25vw 25vw 25vw 25vw;
-  grid-template-rows: 10vh 30vh 30vh 30vh;
-  grid-template-areas:
-    "header header header header"
-    "content content content content"
-    "content content content content"
-    "content content content content"
-  ;
-}
-
-.grid div{
+html, body{
+  font-family: 'Rajdhani', sans-serif;
   padding: 0;
   margin: 0;
+  background: #222;
+}
+
+header{
+  background: #060F65;
+  position: sticky;
+  top: 0;
+  font-size: 20px;
+}
+
+header ul{
+  float: right;
+  list-style: none;
+}
+
+header li{
+  float: left;
+  margin-left: 10vw;
+  text-decoration: none;
+  padding-top: 60px;
+}
+
+header a{
+  text-decoration: none;
+  color: #E7E9FF;
+  letter-spacing: 3px;
+}
+
+header a:hover{
+  text-shadow: 0px 4px 5px #1524B0,
+               0px -4px 5px #1524B0;
+}
+
+header::after{
+  content: '';
+  display: table;
+  clear: both;
 }
 
 .header{
-  background: rgba(50, 10, 255, 1);
-  grid-area: header;
+  width: 80vw;
 }
 
-.tabs td{
-  height: 10vh;
-  padding-left: 20vw;
-}
-
-.content{
-  background: rgba(255, 0, 0, 1);
-  grid-area: content;
-}
-
-.test{
-
+.logo{
+  height: 150px;
+  width: auto;
+  padding: 15px;
+  float: left;
 }
