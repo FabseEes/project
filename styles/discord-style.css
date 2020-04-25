@@ -1,12 +1,7 @@
 .discord{
   margin: auto;
-  background: #2f3136;
   width: 500px;
-  height: 150px;
+  height: 500px;
   border-radius: 5px;
-  display: table;
-}
-
-.discord img{
-  padding: 20px;
+  display: flex;
 }
