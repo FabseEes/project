@@ -6,6 +6,7 @@ html, body{
   margin: 0;
   background: #222;
   scroll-behavior: smooth;
+  color: #979797;
 }
 
 header{
@@ -91,4 +92,10 @@ footer{
   display: grid;
   justify-content: center;
   align-items: center;
+}
+
+.impressum{
+  text-decoration: none;
+  color: #E7E9FF;
+  font-size: 13px;
 }
