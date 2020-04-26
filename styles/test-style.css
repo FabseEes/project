@@ -15,9 +15,14 @@
 .buttons{
   width: 10px;
   height: 10px;
-  color: red;
-  z-index: 100;
   position: fixed;
+}
+
+.buttons button{
+  border: none;
+  background: #E7E9FF;
+  border-radius: 3px;
+  text-decoration: none;
 }
 
 @keyframes slideshow {
