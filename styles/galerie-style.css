@@ -13,16 +13,16 @@
 }
 
 .buttons{
-  width: 10px;
-  height: 10px;
-  position: fixed;
+  display: flex;
+  justify-content: center;
 }
 
 .buttons button{
+  margin: 5px;
   border: none;
-  background: #E7E9FF;
-  border-radius: 3px;
-  text-decoration: none;
+  border-radius: 15px;
+  background: #1a1919;
+  color: #979797;
 }
 
 @keyframes slideshow {
