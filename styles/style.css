@@ -9,12 +9,24 @@ html, body{
   color: #979797;
 }
 
-p::selection{
+::selection{
   color: #D0D3FF;
 }
 
-h2::selection{
-  color: #D0D3FF;
+::-webkit-scrollbar{
+  width: 0.5vw;
+}
+::-webkit-scrollbar-thumb{
+  background: #E7E9FF;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background: #6aa5fc;
+}
+
+::-webkit-scrollbar-track{
+  background: #979797;
 }
 
 header{
@@ -25,6 +37,7 @@ header{
   display: grid;
   justify-content: center;
   align-items: center;
+  z-index: 100;
 
 }
 
@@ -106,4 +119,9 @@ footer{
   text-decoration: none;
   color: #E7E9FF;
   font-size: 13px;
+}
+
+img{
+  width: 50%;
+  padding: 10px;
 }

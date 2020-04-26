@@ -1,0 +1,29 @@
+.slideshow{
+  overflow: hidden;
+  margin: auto;
+  width: 50vw;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  scroll-behavior: smooth;
+}
+
+.slideshow img{
+  width: 100%;
+}
+
+.buttons{
+  width: 10px;
+  height: 10px;
+  color: red;
+  z-index: 100;
+  position: fixed;
+}
+
+@keyframes slideshow {
+  0% {left: 0;}
+  20% {left: 0;}
+  40% {left: -100%;}
+  60% {left: -100%;}
+  100% {left: 0;}
+}
