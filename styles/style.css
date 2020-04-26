@@ -43,7 +43,6 @@ header{
 
 header ul{
   text-align: center;
-  marign: 0;
   padding: 0;
   list-style: none;
 }
@@ -53,13 +52,18 @@ header li{
   display: inline-block;
 }
 
-header a{
+header a, header button{
   text-decoration: none;
   color: #E7E9FF;
   letter-spacing: 3px;
 }
 
 header a:hover{
+  text-shadow: 0px 4px 5px #1524B0,
+               0px -4px 5px #1524B0;
+}
+
+header button:hover{
   text-shadow: 0px 4px 5px #1524B0,
                0px -4px 5px #1524B0;
 }
@@ -72,6 +76,7 @@ header::after{
 
 .header{
   width: 80vw;
+  overflow: hidden;
 }
 
 .logo{
@@ -124,4 +129,43 @@ footer{
 img{
   width: 50%;
   padding: 10px;
+}
+
+a{
+  text-decoration: none;
+  color: #E7E9FF;
+}
+
+
+
+
+.mehrdrop{
+}
+
+.mehrdropbtn{
+  border: none;
+  background: none;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-family: 'Rajdhani', sans-serif;
+  outline: none;
+}
+
+.mehrdropcontent{
+  display: none;
+  position: absolute;
+}
+
+.mehrdropcontent a{
+  float: none;
+  text-align: left;
+  display: block;
+  margin-top: 1em;
+  padding: 10px;
+}
+
+.mehrdrop:hover .mehrdropcontent{
+  display: block;
+  background: #060F65;
+  padding: 0 15px 0 15px;
 }
