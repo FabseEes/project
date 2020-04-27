@@ -15,7 +15,7 @@
   .content{
     background-image: url('images/kothen.png');
     background-size: 100vw;
-    background-repeat: no-repeat;
+    background-repeat: repeat-y;
     background-position: top;
     margin: 0;
     padding: 20vh 0 35vh 0;
@@ -32,6 +32,24 @@
     background: rgba(34, 34, 34, 0.8);
     border-radius: 10px;
     box-shadow: 3px 3px 5px rgba(43, 43, 43, 0.8) inset;
+  }
+
+  @media screen and (max-width: 1500px){
+    .content{
+      background-image: none;
+      padding: 0;
+    }
+    .contenttext{
+      width: 70%;
+      background: none;
+      border: none;
+      box-shadow: none;
+      margin: 3vh 18vw 35vh 18vw;
+      padding: none;
+    }
+    header li{
+      padding: 0 0.7vw 0 0.7vw;
+    }
   }
 
 </style>
