@@ -178,3 +178,8 @@ a{
   transform: rotate(-90deg);
   transition-duration: 0.3s;
 }
+
+.indeximages{
+  width: 50%;
+  float: right;
+}
