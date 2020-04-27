@@ -1,2 +1,0 @@
-# sippe-waldkauz
-Hauptsächlich Langeweile.
