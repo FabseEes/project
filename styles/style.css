@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap');
 
-html, body{
+html, body {
   font-family: 'Rajdhani', sans-serif;
   padding: 0;
   margin: 0;
@@ -9,27 +9,28 @@ html, body{
   color: #979797;
 }
 
-::selection{
+::selection {
   color: #D0D3FF;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   width: 0.5vw;
 }
-::-webkit-scrollbar-thumb{
+
+::-webkit-scrollbar-thumb {
   background: #E7E9FF;
   border-radius: 10px;
 }
 
-::-webkit-scrollbar-thumb:hover{
+::-webkit-scrollbar-thumb:hover {
   background: #6aa5fc;
 }
 
-::-webkit-scrollbar-track{
+::-webkit-scrollbar-track {
   background: #979797;
 }
 
-header{
+header {
   background: #060F65;
   font-size: 20px;
   position: sticky;
@@ -41,60 +42,60 @@ header{
   text-transform: uppercase;
 }
 
-header ul{
+header ul {
   text-align: center;
   padding: 0;
   list-style: none;
 }
 
-header li{
+header li {
   padding: 0 4vw 0 4vw;
   display: inline-block;
 }
 
-header a, header button{
+header a, header button {
   text-decoration: none;
   color: #E7E9FF;
   letter-spacing: 3px;
 }
 
-header a:hover{
+header a:hover {
   text-shadow: 0px 4px 5px #1524B0,
-               0px -4px 5px #1524B0;
+    0px -4px 5px #1524B0;
 }
 
-header button:hover{
+header button:hover {
   text-shadow: 0px 4px 5px #1524B0,
-               0px -4px 5px #1524B0;
+    0px -4px 5px #1524B0;
 }
 
-header::after{
+header::after {
   content: '';
   display: table;
   clear: both;
 }
 
-.header{
+.header {
   width: 80vw;
   overflow: hidden;
 }
 
-.logo{
+.logo {
   height: 200px;
   width: auto;
   padding: 50px;
 }
 
-.content{
+.content {
   margin: 3vh 18vw 8vh 18vw;
   text-align: justify;
 }
 
-footer{
+footer {
   background: #060F65;
 }
 
-.footer{
+.footer {
   height: 150px;
   text-align: center;
   display: grid;
@@ -102,16 +103,16 @@ footer{
   align-items: center;
 }
 
-.back2top{
+.back2top {
   text-decoration: none;
   color: #E7E9FF;
 }
 
-#anfang{
+#anfang {
   z-index: 100;
 }
 
-.topdiv{
+.topdiv {
   background: #060F65;
   margin: 0;
   padding: 0;
@@ -120,29 +121,25 @@ footer{
   align-items: center;
 }
 
-.impressum{
+.impressum {
   text-decoration: none;
   color: #E7E9FF;
   font-size: 13px;
 }
 
-img{
+img {
   width: 50%;
   padding: 10px;
 }
 
-a{
+a {
   text-decoration: none;
   color: #E7E9FF;
 }
 
+.mehrdrop {}
 
-
-
-.mehrdrop{
-}
-
-.mehrdropbtn{
+.mehrdropbtn {
   border: none;
   background: none;
   font-size: 20px;
@@ -151,12 +148,12 @@ a{
   outline: none;
 }
 
-.mehrdropcontent{
+.mehrdropcontent {
   display: none;
   position: absolute;
 }
 
-.mehrdropcontent a{
+.mehrdropcontent a {
   float: none;
   text-align: left;
   display: block;
@@ -164,22 +161,38 @@ a{
   padding: 10px;
 }
 
-.mehrdrop:hover .mehrdropcontent{
+.mehrdrop:hover .mehrdropcontent {
   display: block;
   background: #060F65;
   padding: 0 15px 0 15px;
 }
 
-.mehrdrop:hover .mehrdropbtn i{
+.mehrdrop:hover .mehrdropbtn i {
   transform: rotate(0deg);
 }
 
-.mehrdropbtn i{
+.mehrdropbtn i {
   transform: rotate(-90deg);
   transition-duration: 0.3s;
 }
 
-.indeximages{
-  width: 50%;
-  float: right;
+.indeximage {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.startcontent{
+  margin: auto;
+  padding: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.startcontenttext{
+  text-align: center;
 }
