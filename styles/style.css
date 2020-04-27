@@ -75,7 +75,7 @@ header::after {
   clear: both;
 }
 
-h2{
+h1, h2, h3{
   color: #E7E9FF;
 }
 
@@ -131,18 +131,13 @@ footer {
   font-size: 13px;
 }
 
-img {
-  width: 50%;
-  padding: 10px;
-}
-
 a {
   text-decoration: none;
   color: #E7E9FF;
 }
 
-.mehrdrop {}
 
+/*Dropdown menu "Mehr"*/
 .mehrdropbtn {
   border: none;
   background: none;
