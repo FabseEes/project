@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@500&display=swap');
+
+body, html{
+  background: black;
+  margin: 0;
+  padding: 0;
+}
+
+.pwfrage{
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#pwinput{
+  width: 50vw;
+  text-align: center;
+  padding: 10px;
+  font-family: 'Baloo 2', cursive;
+  background: rgba(223, 224, 238, 0.1);
+  border: none;
+  text-decoration: none;
+  outline: none;
+  color: silver;
+  letter-spacing: 15px;
+}
+
+#submit{
+  background: none;
+  border: none;
+  outline: none;
+  color: silver;
+  font-size: 50px;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+#submit:hover{
+  color: gray;
+}
+
+#error{
+  font-family: 'Baloo 2', cursive;
+}
