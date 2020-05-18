@@ -13,9 +13,12 @@ function pwAbfrage() {
 }
 
 function enter() {
-  document.getElementById('error').innerHTML = "";
-  document.getElementById('pwinput').type = "password";
   if (event.keyCode === 13) {
     pwAbfrage();
   }
+}
+
+function reset(){
+  document.getElementById('error').innerHTML = "";
+  document.getElementById('pwinput').type = "password";
 }
